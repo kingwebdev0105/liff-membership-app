@@ -24,13 +24,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>create-liff-app</h1>
-      {message && <p>{message}</p>}
-      {error && (
-        <p>
-          <code>{error}</code>
-        </p>
-      )}
       <section className="py-16 md:py-24 bg-white">
         <div className="container px-4 mx-auto">
           <div className="md:max-w-2xl mx-auto mb-12 text-center">
